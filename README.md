@@ -61,7 +61,7 @@ cd /project
 Then, you can compile your LaTeX project using `xelatex`:
 
 ```bash
-xelatex cv.tex
+pdflatex cv.tex
 ```
 
 This command will generate the output files (e.g., `cv.pdf`) in your project directory, which is mounted from your host, so you can access them even after the container is removed.
